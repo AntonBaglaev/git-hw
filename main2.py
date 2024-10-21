@@ -18,3 +18,4 @@ else:
     mirror = (num % TEN * HUNGRED) + (num // TEN % TEN * TEN) + (num // HUNGRED)
     result = f"Число {num} - трехзначное. Его зеркальное число - {mirror}"
 print(result)
+
